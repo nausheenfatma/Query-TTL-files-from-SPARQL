@@ -1,0 +1,2021 @@
+@prefix :      <http://www.semanticweb.org/owl/owlapi/turtle#> .
+@prefix dc:    <http://purl.org/dc/elements/1.1/> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix wot:   <http://xmlns.com/wot/0.1/> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix vs:    <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
+
+<http://students.iiit.ac.in#201302219>
+        rdfs:comment    "details of sankepally rohith reddy"@en ;
+        rdfs:label      "details of sankepally rohith reddy"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201302219"^^xsd:long ;
+        foaf:firstName  "sankepally rohith reddy" ;
+        foaf:name       "sankepally rohith reddy" .
+
+<http://courses.iiit.ac.in#c3>
+        a             <http://courses.iiit.ac.in#Course> ;
+        rdfs:comment  "course Linguistic Data 2: Collection &Modeling"@en ;
+        rdfs:label    "course Linguistic Data 2: Collection &Modelingdetails "@en ;
+        <http://courses.iiit.ac.in#courseID>
+                "c3" ;
+        <http://courses.iiit.ac.in#courseName>
+                "Linguistic Data 2: Collection &Modeling" .
+
+foaf:age  a               owl:FunctionalProperty , owl:DatatypeProperty ;
+        rdfs:comment      "The age in years of some agent." ;
+        rdfs:domain       foaf:Agent ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "age" ;
+        rdfs:range        rdfs:Literal ;
+        vs:term_status    "unstable" .
+
+foaf:surname  a           owl:DatatypeProperty ;
+        rdfs:comment      "The surname of some person." ;
+        rdfs:domain       foaf:Person ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "Surname" ;
+        rdfs:range        rdfs:Literal ;
+        vs:term_status    "archaic" .
+
+foaf:maker  a             owl:ObjectProperty ;
+        rdfs:comment      "An agent that  made this thing." ;
+        rdfs:domain       owl:Thing ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "maker" ;
+        rdfs:range        foaf:Agent ;
+        vs:term_status    "stable" .
+
+<http://students.iiit.ac.in#201225167>
+        rdfs:comment    "details of J DIVYA SAI"@en ;
+        rdfs:label      "details of J DIVYA SAI"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> , <http://courses.iiit.ac.in#c4> , <http://courses.iiit.ac.in#c3> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201225167"^^xsd:long ;
+        foaf:firstName  "J DIVYA SAI" ;
+        foaf:name       "J DIVYA SAI" .
+
+foaf:depiction  a         owl:ObjectProperty ;
+        rdfs:comment      "A depiction of some thing." ;
+        rdfs:domain       owl:Thing ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "depiction" ;
+        rdfs:range        foaf:Image ;
+        vs:term_status    "testing" .
+
+<http://courses.iiit.ac.in#courseName>
+        a            owl:DatatypeProperty ;
+        rdfs:domain  <http://courses.iiit.ac.in#Course> ;
+        rdfs:range   xsd:string .
+
+<http://students.iiit.ac.in#201305619>
+        rdfs:comment    "details of POTHAMSETTY RAVI CHANDRA"@en ;
+        rdfs:label      "details of POTHAMSETTY RAVI CHANDRA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201305619"^^xsd:long ;
+        foaf:firstName  "POTHAMSETTY RAVI CHANDRA" ;
+        foaf:name       "POTHAMSETTY RAVI CHANDRA" .
+
+<http://students.iiit.ac.in#201302035>
+        rdfs:comment    "details of ANVESHI SHUKLA"@en ;
+        rdfs:label      "details of ANVESHI SHUKLA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201302035"^^xsd:long ;
+        foaf:firstName  "ANVESHI SHUKLA" ;
+        foaf:name       "ANVESHI SHUKLA" .
+
+foaf:geekcode  a          owl:DatatypeProperty ;
+        rdfs:comment      "A textual geekcode for this person, see http://www.geekcode.com/geek.html" ;
+        rdfs:domain       foaf:Person ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "geekcode" ;
+        rdfs:range        rdfs:Literal ;
+        vs:term_status    "archaic" .
+
+<http://schema.org/ImageObject>
+        a                    owl:Class ;
+        owl:equivalentClass  foaf:Image .
+
+<http://students.iiit.ac.in#201201017>
+        rdfs:comment    "details of JUNAID AHMED"@en ;
+        rdfs:label      "details of JUNAID AHMED"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201017"^^xsd:long ;
+        foaf:firstName  "JUNAID AHMED" ;
+        foaf:name       "JUNAID AHMED" .
+
+<http://students.iiit.ac.in#201225012>
+        rdfs:comment    "details of SANE SUSHMITHA REDDY"@en ;
+        rdfs:label      "details of SANE SUSHMITHA REDDY"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201225012"^^xsd:long ;
+        foaf:firstName  "SANE SUSHMITHA REDDY" ;
+        foaf:name       "SANE SUSHMITHA REDDY" .
+
+<http://students.iiit.ac.in#201302135>
+        rdfs:comment    "details of Abhinav Shukla"@en ;
+        rdfs:label      "details of Abhinav Shukla"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201302135"^^xsd:long ;
+        foaf:firstName  "Abhinav Shukla" ;
+        foaf:name       "Abhinav Shukla" .
+
+<http://students.iiit.ac.in#201325096>
+        rdfs:comment    "details of E PRAVALLIKA"@en ;
+        rdfs:label      "details of E PRAVALLIKA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201325096"^^xsd:long ;
+        foaf:firstName  "E PRAVALLIKA" ;
+        foaf:name       "E PRAVALLIKA" .
+
+<http://courses.iiit.ac.in#courseID>
+        a            owl:DatatypeProperty ;
+        rdfs:domain  <http://courses.iiit.ac.in#Course> ;
+        rdfs:range   xsd:string .
+
+<http://students.iiit.ac.in#201325054>
+        rdfs:comment    "details of Rajat Singh"@en ;
+        rdfs:label      "details of Rajat Singh"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201325054"^^xsd:long ;
+        foaf:firstName  "Rajat Singh" ;
+        foaf:name       "Rajat Singh" .
+
+<http://students.iiit.ac.in#201202018>
+        rdfs:comment    "details of MADAN GOPAL JHANWAR"@en ;
+        rdfs:label      "details of MADAN GOPAL JHANWAR"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201202018"^^xsd:long ;
+        foaf:firstName  "MADAN GOPAL JHANWAR" ;
+        foaf:name       "MADAN GOPAL JHANWAR" .
+
+<http://students.iiit.ac.in#201225020>
+        rdfs:comment    "details of URVASHI SENHA"@en ;
+        rdfs:label      "details of URVASHI SENHA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201225020"^^xsd:long ;
+        foaf:firstName  "URVASHI SENHA" ;
+        foaf:name       "URVASHI SENHA" .
+
+foaf:knows  a             owl:ObjectProperty ;
+        rdfs:comment      "A person known by this person (indicating some level of reciprocated interaction between the parties)." ;
+        rdfs:domain       foaf:Person ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "knows" ;
+        rdfs:range        foaf:Person ;
+        vs:term_status    "stable" .
+
+<http://students.iiit.ac.in#201202139>
+        rdfs:comment    "details of KUMMETHA SNEHA"@en ;
+        rdfs:label      "details of KUMMETHA SNEHA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201202139"^^xsd:long ;
+        foaf:firstName  "KUMMETHA SNEHA" ;
+        foaf:name       "KUMMETHA SNEHA" .
+
+<http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing>
+        a           owl:Class ;
+        rdfs:label  "Spatial Thing" .
+
+foaf:OnlineAccount  a     owl:Class ;
+        rdfs:comment      "An online account." ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "Online Account" ;
+        rdfs:subClassOf   owl:Thing ;
+        vs:term_status    "testing" .
+
+foaf:msnChatID  a           owl:InverseFunctionalProperty , owl:ObjectProperty , owl:DatatypeProperty ;
+        rdfs:comment        "An MSN chat ID" ;
+        rdfs:domain         foaf:Agent ;
+        rdfs:isDefinedBy    foaf: ;
+        rdfs:label          "MSN chat ID" ;
+        rdfs:range          rdfs:Literal ;
+        rdfs:subPropertyOf  foaf:nick ;
+        vs:term_status      "testing" .
+
+foaf:yahooChatID  a         owl:DatatypeProperty , owl:ObjectProperty , owl:InverseFunctionalProperty ;
+        rdfs:comment        "A Yahoo chat ID" ;
+        rdfs:domain         foaf:Agent ;
+        rdfs:isDefinedBy    foaf: ;
+        rdfs:label          "Yahoo chat ID" ;
+        rdfs:range          rdfs:Literal ;
+        rdfs:subPropertyOf  foaf:nick ;
+        vs:term_status      "testing" .
+
+<http://students.iiit.ac.in#201256063>
+        rdfs:comment    "details of VRUSHANK VYAS"@en ;
+        rdfs:label      "details of VRUSHANK VYAS"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201256063"^^xsd:long ;
+        foaf:firstName  "VRUSHANK VYAS" ;
+        foaf:name       "VRUSHANK VYAS" .
+
+<http://students.iiit.ac.in#201302093>
+        rdfs:comment    "details of Deepanshu Vijay"@en ;
+        rdfs:label      "details of Deepanshu Vijay"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201302093"^^xsd:long ;
+        foaf:firstName  "Deepanshu Vijay" ;
+        foaf:name       "Deepanshu Vijay" .
+
+<http://students.iiit.ac.in#201125087>
+        rdfs:comment    "details of Sakshi Gupta"@en ;
+        rdfs:label      "details of Sakshi Gupta"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c3> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201125087"^^xsd:long ;
+        foaf:firstName  "Sakshi Gupta" ;
+        foaf:name       "Sakshi Gupta" .
+
+<http://students.iiit.ac.in#201201075>
+        rdfs:comment    "details of ARNAV KUMAR AGRAWAL"@en ;
+        rdfs:label      "details of ARNAV KUMAR AGRAWAL"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201075"^^xsd:long ;
+        foaf:firstName  "ARNAV KUMAR AGRAWAL" ;
+        foaf:name       "ARNAV KUMAR AGRAWAL" .
+
+<http://students.iiit.ac.in#201264203>
+        rdfs:comment    "details of Abhijeet Naresh Thakur"@en ;
+        rdfs:label      "details of Abhijeet Naresh Thakur"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201264203"^^xsd:long ;
+        foaf:firstName  "Abhijeet Naresh Thakur" ;
+        foaf:name       "Abhijeet Naresh Thakur" .
+
+<http://students.iiit.ac.in#201156150>
+        rdfs:comment    "details of Sahiti Chedalavada"@en ;
+        rdfs:label      "details of Sahiti Chedalavada"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201156150"^^xsd:long ;
+        foaf:firstName  "Sahiti Chedalavada" ;
+        foaf:name       "Sahiti Chedalavada" .
+
+<https://students.iiit.ac.in#Student>
+        a                owl:Class ;
+        rdfs:comment     "Class for a Student , is a sub class of Person" ;
+        rdfs:subClassOf  foaf:Person .
+
+foaf:givenName  a         owl:DatatypeProperty ;
+        rdfs:comment      "The given name of some person." ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "Given name" ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#201350844>
+        rdfs:comment    "details of M SIVA DURGA PRASAD"@en ;
+        rdfs:label      "details of M SIVA DURGA PRASAD"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201350844"^^xsd:long ;
+        foaf:firstName  "M SIVA DURGA PRASAD" ;
+        foaf:name       "M SIVA DURGA PRASAD" .
+
+<http://iiit.ac.in/people/faculty#f2>
+        a               <http://iiit.ac.in/people/faculty#Faculty> ;
+        rdfs:comment    "details of faculty with idf2"@en ;
+        rdfs:label      "f2"@en ;
+        <http://iiit.ac.in/people/faculty#teaches>
+                <http://courses.iiit.ac.in#c3> ;
+        foaf:firstName  "Soma Paul" ;
+        foaf:name       "Soma Paul" .
+
+<http://students.iiit.ac.in#201303010>
+        rdfs:comment    "details of Nancy kapri"@en ;
+        rdfs:label      "details of Nancy kapri"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201303010"^^xsd:long ;
+        foaf:firstName  "Nancy kapri" ;
+        foaf:name       "Nancy kapri" .
+
+<http://students.iiit.ac.in#201325049>
+        rdfs:comment    "details of Srishti Aggarwal"@en ;
+        rdfs:label      "details of Srishti Aggarwal"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201325049"^^xsd:long ;
+        foaf:firstName  "Srishti Aggarwal" ;
+        foaf:name       "Srishti Aggarwal" .
+
+foaf:fundedBy  a          owl:ObjectProperty ;
+        rdfs:comment      "An organization funding a project or person." ;
+        rdfs:domain       owl:Thing ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "funded by" ;
+        rdfs:range        owl:Thing ;
+        vs:term_status    "archaic" .
+
+<http://students.iiit.ac.in#201201112>
+        rdfs:comment    "details of VIMAL CHAUDHARY"@en ;
+        rdfs:label      "details of VIMAL CHAUDHARY"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> , <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201112"^^xsd:long ;
+        foaf:firstName  "VIMAL CHAUDHARY" ;
+        foaf:name       "VIMAL CHAUDHARY" .
+
+foaf:thumbnail  a         owl:ObjectProperty ;
+        rdfs:comment      "A derived thumbnail image." ;
+        rdfs:domain       foaf:Image ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "thumbnail" ;
+        rdfs:range        foaf:Image ;
+        vs:term_status    "testing" .
+
+foaf:OnlineChatAccount
+        a                 owl:Class ;
+        rdfs:comment      "An online chat account." ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "Online Chat Account" ;
+        rdfs:subClassOf   foaf:OnlineAccount ;
+        vs:term_status    "unstable" .
+
+foaf:accountName  a       owl:DatatypeProperty ;
+        rdfs:comment      "Indicates the name (identifier) associated with this online account." ;
+        rdfs:domain       foaf:OnlineAccount ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "account name" ;
+        rdfs:range        rdfs:Literal ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#201407541>
+        rdfs:comment    "details of NAUSHEEN FATMA"@en ;
+        rdfs:label      "details of NAUSHEEN FATMA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201407541"^^xsd:long ;
+        foaf:firstName  "NAUSHEEN FATMA" ;
+        foaf:name       "NAUSHEEN FATMA" .
+
+<http://students.iiit.ac.in#201201083>
+        rdfs:comment    "details of SURYA SASHANK NISTALA"@en ;
+        rdfs:label      "details of SURYA SASHANK NISTALA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201083"^^xsd:long ;
+        foaf:firstName  "SURYA SASHANK NISTALA" ;
+        foaf:name       "SURYA SASHANK NISTALA" .
+
+<http://students.iiit.ac.in#201325191>
+        rdfs:comment    "details of TUMMALAPALLI MADHURI"@en ;
+        rdfs:label      "details of TUMMALAPALLI MADHURI"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201325191"^^xsd:long ;
+        foaf:firstName  "TUMMALAPALLI MADHURI" ;
+        foaf:name       "TUMMALAPALLI MADHURI" .
+
+<http://students.iiit.ac.in#201201041>
+        rdfs:comment    "details of ABHINAV PANDEY"@en ;
+        rdfs:label      "details of ABHINAV PANDEY"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201041"^^xsd:long ;
+        foaf:firstName  "ABHINAV PANDEY" ;
+        foaf:name       "ABHINAV PANDEY" .
+
+<http://students.iiit.ac.in#201407662>
+        rdfs:comment    "details of PUDUPPULLY RATISH SURENDRAN"@en ;
+        rdfs:label      "details of PUDUPPULLY RATISH SURENDRAN"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201407662"^^xsd:long ;
+        foaf:firstName  "PUDUPPULLY RATISH SURENDRAN" ;
+        foaf:name       "PUDUPPULLY RATISH SURENDRAN" .
+
+<http://students.iiit.ac.in#201264161>
+        rdfs:comment    "details of RAMA DEDEEPYA PAYILA"@en ;
+        rdfs:label      "details of RAMA DEDEEPYA PAYILA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201264161"^^xsd:long ;
+        foaf:firstName  "RAMA DEDEEPYA PAYILA" ;
+        foaf:name       "RAMA DEDEEPYA PAYILA" .
+
+<http://students.iiit.ac.in#201250881>
+        rdfs:comment    "details of avinash kamineni"@en ;
+        rdfs:label      "details of avinash kamineni"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201250881"^^xsd:long ;
+        foaf:firstName  "avinash kamineni" ;
+        foaf:name       "avinash kamineni" .
+
+<http://students.iiit.ac.in#201450814>
+        rdfs:comment    "details of Sateesh Kumar"@en ;
+        rdfs:label      "details of Sateesh Kumar"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201450814"^^xsd:long ;
+        foaf:firstName  "Sateesh Kumar" ;
+        foaf:name       "Sateesh Kumar" .
+
+<http://students.iiit.ac.in#201201091>
+        rdfs:comment    "details of SHIKHER PRATAP SINGH SOMAL"@en ;
+        rdfs:label      "details of SHIKHER PRATAP SINGH SOMAL"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201091"^^xsd:long ;
+        foaf:firstName  "SHIKHER PRATAP SINGH SOMAL" ;
+        foaf:name       "SHIKHER PRATAP SINGH SOMAL" .
+
+<http://students.iiit.ac.in#201225086>
+        rdfs:comment    "details of ASIF HUSSAIN"@en ;
+        rdfs:label      "details of ASIF HUSSAIN"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201225086"^^xsd:long ;
+        foaf:firstName  "ASIF HUSSAIN" ;
+        foaf:name       "ASIF HUSSAIN" .
+
+<http://students.iiit.ac.in#201325199>
+        rdfs:comment    "details of KAVERI ANURANJANA"@en ;
+        rdfs:label      "details of KAVERI ANURANJANA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201325199"^^xsd:long ;
+        foaf:firstName  "KAVERI ANURANJANA" ;
+        foaf:name       "KAVERI ANURANJANA" .
+
+<http://students.iiit.ac.in#201305580>
+        rdfs:comment    "details of Prateek"@en ;
+        rdfs:label      "details of Prateek"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201305580"^^xsd:long ;
+        foaf:firstName  "Prateek" ;
+        foaf:name       "Prateek" .
+
+<http://courses.iiit.ac.in#c1>
+        a             <http://courses.iiit.ac.in#Course> ;
+        rdfs:comment  "course Computer Networks"@en ;
+        rdfs:label    "course Computer Networksdetails "@en ;
+        <http://courses.iiit.ac.in#courseID>
+                "c1" ;
+        <http://courses.iiit.ac.in#courseName>
+                "Computer Networks" .
+
+foaf:status  a            owl:DatatypeProperty ;
+        rdfs:comment      "A string expressing what the user is happy for the general public (normally) to know about their current activity." ;
+        rdfs:domain       foaf:Agent ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "status" ;
+        rdfs:range        rdfs:Literal ;
+        vs:term_status    "unstable" .
+
+foaf:dnaChecksum  a       owl:DatatypeProperty ;
+        rdfs:comment      "A checksum for the DNA of some thing. Joke." ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "DNA checksum" ;
+        rdfs:range        rdfs:Literal ;
+        vs:term_status    "archaic" .
+
+<http://students.iiit.ac.in#201225002>
+        rdfs:comment    "details of KANCHARLA HEMANT"@en ;
+        rdfs:label      "details of KANCHARLA HEMANT"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> , <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201225002"^^xsd:long ;
+        foaf:firstName  "KANCHARLA HEMANT" ;
+        foaf:name       "KANCHARLA HEMANT" .
+
+<http://students.iiit.ac.in#201305538>
+        rdfs:comment    "details of Kulvinder"@en ;
+        rdfs:label      "details of Kulvinder"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201305538"^^xsd:long ;
+        foaf:firstName  "Kulvinder" ;
+        foaf:name       "Kulvinder" .
+
+<http://students.iiit.ac.in#201325115>
+        rdfs:comment    "details of Vaibhav Kumar"@en ;
+        rdfs:label      "details of Vaibhav Kumar"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201325115"^^xsd:long ;
+        foaf:firstName  "Vaibhav Kumar" ;
+        foaf:name       "Vaibhav Kumar" .
+
+<http://students.iiit.ac.in#201350839>
+        rdfs:comment    "details of MURALI KRISHNA REDROWTHU"@en ;
+        rdfs:label      "details of MURALI KRISHNA REDROWTHU"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201350839"^^xsd:long ;
+        foaf:firstName  "MURALI KRISHNA REDROWTHU" ;
+        foaf:name       "MURALI KRISHNA REDROWTHU" .
+
+<http://students.iiit.ac.in#201201128>
+        rdfs:comment    "details of SNEHA BANDLA"@en ;
+        rdfs:label      "details of SNEHA BANDLA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201128"^^xsd:long ;
+        foaf:firstName  "SNEHA BANDLA" ;
+        foaf:name       "SNEHA BANDLA" .
+
+foaf:interest  a          owl:ObjectProperty ;
+        rdfs:comment      "A page about a topic of interest to this person." ;
+        rdfs:domain       foaf:Agent ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "interest" ;
+        rdfs:range        foaf:Document ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#201407536>
+        rdfs:comment    "details of ARPITA DAS"@en ;
+        rdfs:label      "details of ARPITA DAS"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201407536"^^xsd:long ;
+        foaf:firstName  "ARPITA DAS" ;
+        foaf:name       "ARPITA DAS" .
+
+foaf:depicts  a           owl:ObjectProperty ;
+        rdfs:comment      "A thing depicted in this representation." ;
+        rdfs:domain       foaf:Image ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "depicts" ;
+        rdfs:range        owl:Thing ;
+        owl:inverseOf     foaf:depiction ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#201325186>
+        rdfs:comment    "details of Nurendra Choudhary"@en ;
+        rdfs:label      "details of Nurendra Choudhary"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201325186"^^xsd:long ;
+        foaf:firstName  "Nurendra Choudhary" ;
+        foaf:name       "Nurendra Choudhary" .
+
+foaf:account  a           owl:ObjectProperty ;
+        rdfs:comment      "Indicates an account held by this agent." ;
+        rdfs:domain       foaf:Agent ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "account" ;
+        rdfs:range        foaf:OnlineAccount ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#rollnum>
+        a             owl:DatatypeProperty ;
+        rdfs:comment  "Numerical Roll Number of a Student" ;
+        rdfs:domain   <http://students.iiit.ac.in#201407662> , <http://students.iiit.ac.in#201202078> , <http://students.iiit.ac.in#201302015> , <http://students.iiit.ac.in#201225086> , <http://students.iiit.ac.in#201302061> , <http://students.iiit.ac.in#201305626> , <http://students.iiit.ac.in#201201041> , <http://students.iiit.ac.in#201325115> , <http://students.iiit.ac.in#201225156> , <http://students.iiit.ac.in#201202036> , <http://students.iiit.ac.in#201225011> , <http://students.iiit.ac.in#201256063> , <http://students.iiit.ac.in#201350827> , <http://students.iiit.ac.in#201202018> , <http://students.iiit.ac.in#201201112> , <http://students.iiit.ac.in#201325031> , <http://students.iiit.ac.in#201201171> , <http://students.iiit.ac.in#201201166> , <http://students.iiit.ac.in#201302135> , <http://students.iiit.ac.in#201302084> , <http://students.iiit.ac.in#201201115> , <http://students.iiit.ac.in#201201064> , <http://students.iiit.ac.in#201325118> , <http://students.iiit.ac.in#201225090> , <http://students.iiit.ac.in#201201013> , <http://students.iiit.ac.in#201450814> , <http://students.iiit.ac.in#201201174> , <http://students.iiit.ac.in#201302210> , <http://students.iiit.ac.in#201450802> , <http://students.iiit.ac.in#201250913> , <http://students.iiit.ac.in#201125087> , <http://students.iiit.ac.in#201225006> , <http://students.iiit.ac.in#201225002> , <http://students.iiit.ac.in#201202157> , <http://students.iiit.ac.in#201325054> , <http://students.iiit.ac.in#201225081> , <http://students.iiit.ac.in#201202022> , <http://students.iiit.ac.in#201125156> , <http://students.iiit.ac.in#201201118> , <http://students.iiit.ac.in#201264199> , <http://students.iiit.ac.in#201201052> , <http://students.iiit.ac.in#201201039> , <http://students.iiit.ac.in#201225167> , <http://students.iiit.ac.in#201350844> , <http://students.iiit.ac.in#201305619> , <http://students.iiit.ac.in#201303010> , <http://students.iiit.ac.in#201325199> , <http://students.iiit.ac.in#201201075> , <http://students.iiit.ac.in#201201060> , <http://students.iiit.ac.in#201201055> , <http://students.iiit.ac.in#201202187> , <http://students.iiit.ac.in#201305538> , <http://students.iiit.ac.in#201302044> , <http://students.iiit.ac.in#201303013> , <http://students.iiit.ac.in#201156150> , <http://students.iiit.ac.in#201201083> , <http://students.iiit.ac.in#201305600> , <http://students.iiit.ac.in#201302063> , <http://students.iiit.ac.in#201325096> , <http://students.iiit.ac.in#201202139> , <http://students.iiit.ac.in#201225140> , <http://students.iiit.ac.in#201407613> , <http://students.iiit.ac.in#201325186> , <http://students.iiit.ac.in#201125188> , <http://students.iiit.ac.in#201302035> , <http://students.iiit.ac.in#201250881> , <http://students.iiit.ac.in#201305580> , <http://students.iiit.ac.in#201256001> , <http://students.iiit.ac.in#201264203> , <http://students.iiit.ac.in#201201091> , <http://students.iiit.ac.in#201302181> , <http://students.iiit.ac.in#201325191> , <http://students.iiit.ac.in#201450816> , <http://students.iiit.ac.in#201225076> , <http://students.iiit.ac.in#201350824> , <http://students.iiit.ac.in#201325148> , <http://students.iiit.ac.in#201450879> , <http://students.iiit.ac.in#201225005> , <http://students.iiit.ac.in#201302008> , <http://students.iiit.ac.in#201202069> , <http://students.iiit.ac.in#201001080> , <http://students.iiit.ac.in#201125105> , <http://students.iiit.ac.in#201202159> , <http://students.iiit.ac.in#201256067> , <http://students.iiit.ac.in#201407536> , <http://students.iiit.ac.in#201125005> , <http://students.iiit.ac.in#201202044> , <http://students.iiit.ac.in#201325059> , <http://students.iiit.ac.in#201201181> , <http://students.iiit.ac.in#201303004> , <http://students.iiit.ac.in#201302219> , <http://students.iiit.ac.in#201201128> , <http://students.iiit.ac.in#201225189> , <http://students.iiit.ac.in#201264161> , <http://students.iiit.ac.in#201302133> , <https://students.iiit.ac.in#Student> , <http://students.iiit.ac.in#201302066> , <http://students.iiit.ac.in#201407666> , <http://students.iiit.ac.in#201325049> , <http://students.iiit.ac.in#201407541> , <http://students.iiit.ac.in#201202037> , <http://students.iiit.ac.in#201302161> , <http://students.iiit.ac.in#201225113> , <http://students.iiit.ac.in#201225032> , <http://students.iiit.ac.in#201225012> , <http://students.iiit.ac.in#201201045> , <http://students.iiit.ac.in#201305658> , <http://students.iiit.ac.in#201264059> , <http://students.iiit.ac.in#201125172> , <http://students.iiit.ac.in#201305594> , <http://students.iiit.ac.in#201325221> , <http://students.iiit.ac.in#201302093> , <http://students.iiit.ac.in#201225020> , <http://students.iiit.ac.in#201256138> , <http://students.iiit.ac.in#201499520> , <http://students.iiit.ac.in#201125093> , <http://students.iiit.ac.in#201201136> , <http://students.iiit.ac.in#201302195> , <http://students.iiit.ac.in#201350839> , <http://students.iiit.ac.in#201302179> , <http://students.iiit.ac.in#201256040> , <http://students.iiit.ac.in#201201017> , <http://students.iiit.ac.in#201201160> , <http://students.iiit.ac.in#201201093> , <http://students.iiit.ac.in#201302234> ;
+        rdfs:range    xsd:unsignedLong .
+
+foaf:sha1  a              owl:DatatypeProperty ;
+        rdfs:comment      "A sha1sum hash, in hex." ;
+        rdfs:domain       foaf:Document ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "sha1sum (hex)" ;
+        vs:term_status    "unstable" .
+
+<http://students.iiit.ac.in#201302133>
+        rdfs:comment    "details of AKSHAY PAWALE"@en ;
+        rdfs:label      "details of AKSHAY PAWALE"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201302133"^^xsd:long ;
+        foaf:firstName  "AKSHAY PAWALE" ;
+        foaf:name       "AKSHAY PAWALE" .
+
+<http://iiit.ac.in/people/faculty#f5>
+        a               <http://iiit.ac.in/people/faculty#Faculty> ;
+        rdfs:comment    "details of faculty with idf5"@en ;
+        rdfs:label      "f5"@en ;
+        <http://iiit.ac.in/people/faculty#teaches>
+                <http://courses.iiit.ac.in#c1> ;
+        foaf:firstName  "Shatrunjay Rawat" ;
+        foaf:name       "Shatrunjay Rawat" .
+
+foaf:Person  a            owl:Class ;
+        rdfs:comment      "A person." ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "Person" ;
+        rdfs:subClassOf   foaf:Agent , <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ;
+        owl:disjointWith  foaf:Project ;
+        vs:term_status    "stable" .
+
+foaf:myersBriggs  a       owl:DatatypeProperty ;
+        rdfs:comment      "A Myers Briggs (MBTI) personality classification." ;
+        rdfs:domain       foaf:Person ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "myersBriggs" ;
+        rdfs:range        rdfs:Literal ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#201201136>
+        rdfs:comment    "details of KARAN AGGARWAL"@en ;
+        rdfs:label      "details of KARAN AGGARWAL"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> , <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201136"^^xsd:long ;
+        foaf:firstName  "KARAN AGGARWAL" ;
+        foaf:name       "KARAN AGGARWAL" .
+
+foaf:schoolHomepage  a    owl:ObjectProperty ;
+        rdfs:comment      "A homepage of a school attended by the person." ;
+        rdfs:domain       foaf:Person ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "schoolHomepage" ;
+        rdfs:range        foaf:Document ;
+        vs:term_status    "testing" .
+
+<http://www.w3.org/2000/10/swap/pim/contact#Person>
+        a                    owl:Class ;
+        owl:equivalentClass  foaf:Person .
+
+<http://students.iiit.ac.in#201201115>
+        rdfs:comment    "details of ADITYA CHANDRAN"@en ;
+        rdfs:label      "details of ADITYA CHANDRAN"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201115"^^xsd:long ;
+        foaf:firstName  "ADITYA CHANDRAN" ;
+        foaf:name       "ADITYA CHANDRAN" .
+
+<http://students.iiit.ac.in#201303013>
+        rdfs:comment    "details of Devireddy Sushma Reddy"@en ;
+        rdfs:label      "details of Devireddy Sushma Reddy"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201303013"^^xsd:long ;
+        foaf:firstName  "Devireddy Sushma Reddy" ;
+        foaf:name       "Devireddy Sushma Reddy" .
+
+<http://students.iiit.ac.in#201202037>
+        rdfs:comment    "details of GAURAV PARIDA"@en ;
+        rdfs:label      "details of GAURAV PARIDA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201202037"^^xsd:long ;
+        foaf:firstName  "GAURAV PARIDA" ;
+        foaf:name       "GAURAV PARIDA" .
+
+<http://students.iiit.ac.in#201325031>
+        rdfs:comment    "details of Malireddy Chanakya"@en ;
+        rdfs:label      "details of Malireddy Chanakya"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201325031"^^xsd:long ;
+        foaf:firstName  "Malireddy Chanakya" ;
+        foaf:name       "Malireddy Chanakya" .
+
+<http://students.iiit.ac.in#201225081>
+        rdfs:comment    "details of AKSHITA JHA"@en ;
+        rdfs:label      "details of AKSHITA JHA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> , <http://courses.iiit.ac.in#c4> , <http://courses.iiit.ac.in#c3> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201225081"^^xsd:long ;
+        foaf:firstName  "AKSHITA JHA" ;
+        foaf:name       "AKSHITA JHA" .
+
+foaf:logo  a              owl:InverseFunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment      "A logo representing some thing." ;
+        rdfs:domain       owl:Thing ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "logo" ;
+        rdfs:range        owl:Thing ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#registeredFor>
+        a            owl:ObjectProperty ;
+        rdfs:domain  <https://students.iiit.ac.in#Student> ;
+        rdfs:range   <http://courses.iiit.ac.in#Course> .
+
+<http://students.iiit.ac.in#201250913>
+        rdfs:comment    "details of Subhash Kanuru"@en ;
+        rdfs:label      "details of Subhash Kanuru"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201250913"^^xsd:long ;
+        foaf:firstName  "Subhash Kanuru" ;
+        foaf:name       "Subhash Kanuru" .
+
+<http://students.iiit.ac.in#201125156>
+        rdfs:comment    "details of ashish palakurthi"@en ;
+        rdfs:label      "details of ashish palakurthi"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c3> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201125156"^^xsd:long ;
+        foaf:firstName  "ashish palakurthi" ;
+        foaf:name       "ashish palakurthi" .
+
+foaf:topic  a             owl:ObjectProperty ;
+        rdfs:comment      "A topic of some page or document." ;
+        rdfs:domain       foaf:Document ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "topic" ;
+        rdfs:range        owl:Thing ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#201256040>
+        rdfs:comment    "details of VIKRAM AHUJA"@en ;
+        rdfs:label      "details of VIKRAM AHUJA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201256040"^^xsd:long ;
+        foaf:firstName  "VIKRAM AHUJA" ;
+        foaf:name       "VIKRAM AHUJA" .
+
+foaf:member  a            owl:ObjectProperty ;
+        rdfs:comment      "Indicates a member of a Group" ;
+        rdfs:domain       foaf:Group ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "member" ;
+        rdfs:range        foaf:Agent ;
+        vs:term_status    "stable" .
+
+foaf:name  a                owl:DatatypeProperty , owl:AnnotationProperty ;
+        rdfs:comment        "A name for some thing." ;
+        rdfs:domain         owl:Thing ;
+        rdfs:isDefinedBy    foaf: ;
+        rdfs:label          "name" ;
+        rdfs:range          rdfs:Literal ;
+        rdfs:subPropertyOf  rdfs:label ;
+        vs:term_status      "testing" .
+
+foaf:icqChatID  a           owl:ObjectProperty , owl:InverseFunctionalProperty , owl:DatatypeProperty ;
+        rdfs:comment        "An ICQ chat ID" ;
+        rdfs:domain         foaf:Agent ;
+        rdfs:isDefinedBy    foaf: ;
+        rdfs:label          "ICQ chat ID" ;
+        rdfs:range          rdfs:Literal ;
+        rdfs:subPropertyOf  foaf:nick ;
+        vs:term_status      "testing" .
+
+<http://www.w3.org/2004/02/skos/core#Concept>
+        rdfs:label  "Concept" .
+
+foaf:Project  a           owl:Class ;
+        rdfs:comment      "A project (a collective endeavour of some kind)." ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "Project" ;
+        vs:term_status    "testing" .
+
+vs:term_status  a  owl:AnnotationProperty .
+
+<http://students.iiit.ac.in#201201052>
+        rdfs:comment    "details of AVIJIT VAJPAYEE"@en ;
+        rdfs:label      "details of AVIJIT VAJPAYEE"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> , <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201052"^^xsd:long ;
+        foaf:firstName  "AVIJIT VAJPAYEE" ;
+        foaf:name       "AVIJIT VAJPAYEE" .
+
+<http://students.iiit.ac.in#201202187>
+        rdfs:comment    "details of ABISHEK KANNAN"@en ;
+        rdfs:label      "details of ABISHEK KANNAN"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201202187"^^xsd:long ;
+        foaf:firstName  "ABISHEK KANNAN" ;
+        foaf:name       "ABISHEK KANNAN" .
+
+<http://courses.iiit.ac.in#c4>
+        a             <http://courses.iiit.ac.in#Course> ;
+        rdfs:comment  "course NLP Applications"@en ;
+        rdfs:label    "course NLP Applicationsdetails "@en ;
+        <http://courses.iiit.ac.in#courseID>
+                "c4" ;
+        <http://courses.iiit.ac.in#courseName>
+                "NLP Applications" .
+
+foaf:family_name  a       owl:DatatypeProperty ;
+        rdfs:comment      "The family name of some person." ;
+        rdfs:domain       foaf:Person ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "family_name" ;
+        rdfs:range        rdfs:Literal ;
+        vs:term_status    "archaic" .
+
+foaf:currentProject  a    owl:ObjectProperty ;
+        rdfs:comment      "A current project this person works on." ;
+        rdfs:domain       foaf:Person ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "current project" ;
+        rdfs:range        owl:Thing ;
+        vs:term_status    "testing" .
+
+foaf:homepage  a            owl:ObjectProperty , owl:InverseFunctionalProperty ;
+        rdfs:comment        "A homepage for some thing." ;
+        rdfs:domain         owl:Thing ;
+        rdfs:isDefinedBy    foaf: ;
+        rdfs:label          "homepage" ;
+        rdfs:range          foaf:Document ;
+        rdfs:subPropertyOf  foaf:page , foaf:isPrimaryTopicOf ;
+        vs:term_status      "stable" .
+
+<http://students.iiit.ac.in#201225005>
+        rdfs:comment    "details of PRATHYUSHA JWALAPURAM"@en ;
+        rdfs:label      "details of PRATHYUSHA JWALAPURAM"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> , <http://courses.iiit.ac.in#c1> , <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201225005"^^xsd:long ;
+        foaf:firstName  "PRATHYUSHA JWALAPURAM" ;
+        foaf:name       "PRATHYUSHA JWALAPURAM" .
+
+<http://students.iiit.ac.in#201225189>
+        rdfs:comment    "details of DARSHAN AGARWAL"@en ;
+        rdfs:label      "details of DARSHAN AGARWAL"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> , <http://courses.iiit.ac.in#c3> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201225189"^^xsd:long ;
+        foaf:firstName  "DARSHAN AGARWAL" ;
+        foaf:name       "DARSHAN AGARWAL" .
+
+<http://students.iiit.ac.in#201325118>
+        rdfs:comment    "details of MRINAL DHAR"@en ;
+        rdfs:label      "details of MRINAL DHAR"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201325118"^^xsd:long ;
+        foaf:firstName  "MRINAL DHAR" ;
+        foaf:name       "MRINAL DHAR" .
+
+foaf:weblog  a              owl:InverseFunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment        "A weblog of some thing (whether person, group, company etc.)." ;
+        rdfs:domain         foaf:Agent ;
+        rdfs:isDefinedBy    foaf: ;
+        rdfs:label          "weblog" ;
+        rdfs:range          foaf:Document ;
+        rdfs:subPropertyOf  foaf:page ;
+        vs:term_status      "stable" .
+
+<http://students.iiit.ac.in#201125093>
+        rdfs:comment    "details of Arnav Sharma"@en ;
+        rdfs:label      "details of Arnav Sharma"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c3> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201125093"^^xsd:long ;
+        foaf:firstName  "Arnav Sharma" ;
+        foaf:name       "Arnav Sharma" .
+
+foaf:phone  a             owl:ObjectProperty ;
+        rdfs:comment      "A phone,  specified using fully qualified tel: URI scheme (refs: http://www.w3.org/Addressing/schemes.html#tel)." ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "phone" ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#201225076>
+        rdfs:comment    "details of VARTIKA RAI"@en ;
+        rdfs:label      "details of VARTIKA RAI"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> , <http://courses.iiit.ac.in#c1> , <http://courses.iiit.ac.in#c4> , <http://courses.iiit.ac.in#c3> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201225076"^^xsd:long ;
+        foaf:firstName  "VARTIKA RAI" ;
+        foaf:name       "VARTIKA RAI" .
+
+<http://students.iiit.ac.in#201201060>
+        rdfs:comment    "details of PARITOSH GARG"@en ;
+        rdfs:label      "details of PARITOSH GARG"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201060"^^xsd:long ;
+        foaf:firstName  "PARITOSH GARG" ;
+        foaf:name       "PARITOSH GARG" .
+
+<http://students.iiit.ac.in#201302015>
+        rdfs:comment    "details of Krishna Tulsyan"@en ;
+        rdfs:label      "details of Krishna Tulsyan"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201302015"^^xsd:long ;
+        foaf:firstName  "Krishna Tulsyan" ;
+        foaf:name       "Krishna Tulsyan" .
+
+<http://students.iiit.ac.in#201264059>
+        rdfs:comment    "details of GAURAV SINGH"@en ;
+        rdfs:label      "details of GAURAV SINGH"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201264059"^^xsd:long ;
+        foaf:firstName  "GAURAV SINGH" ;
+        foaf:name       "GAURAV SINGH" .
+
+<http://students.iiit.ac.in#201201039>
+        rdfs:comment    "details of SAURABH KATHPALIA"@en ;
+        rdfs:label      "details of SAURABH KATHPALIA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201039"^^xsd:long ;
+        foaf:firstName  "SAURABH KATHPALIA" ;
+        foaf:name       "SAURABH KATHPALIA" .
+
+<http://schema.org/CreativeWork>
+        a                    owl:Class ;
+        owl:equivalentClass  foaf:Document .
+
+<http://students.iiit.ac.in#201125172>
+        rdfs:comment    "details of Sudarsh Rathi"@en ;
+        rdfs:label      "details of Sudarsh Rathi"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> , <http://courses.iiit.ac.in#c4> , <http://courses.iiit.ac.in#c3> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201125172"^^xsd:long ;
+        foaf:firstName  "Sudarsh Rathi" ;
+        foaf:name       "Sudarsh Rathi" .
+
+foaf:Image  a             owl:Class ;
+        rdfs:comment      "An image." ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "Image" ;
+        rdfs:subClassOf   foaf:Document ;
+        vs:term_status    "stable" .
+
+<http://students.iiit.ac.in#201201181>
+        rdfs:comment    "details of RUPINDER SINGH KHOKHAR"@en ;
+        rdfs:label      "details of RUPINDER SINGH KHOKHAR"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> , <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201181"^^xsd:long ;
+        foaf:firstName  "RUPINDER SINGH KHOKHAR" ;
+        foaf:name       "RUPINDER SINGH KHOKHAR" .
+
+<http://students.iiit.ac.in#201201160>
+        rdfs:comment    "details of MOHAMMED FAISAL ANEES"@en ;
+        rdfs:label      "details of MOHAMMED FAISAL ANEES"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201160"^^xsd:long ;
+        foaf:firstName  "MOHAMMED FAISAL ANEES" ;
+        foaf:name       "MOHAMMED FAISAL ANEES" .
+
+foaf:made  a              owl:ObjectProperty ;
+        rdfs:comment      "Something that was made by this agent." ;
+        rdfs:domain       foaf:Agent ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "made" ;
+        rdfs:range        owl:Thing ;
+        owl:inverseOf     foaf:maker ;
+        vs:term_status    "stable" .
+
+<http://students.iiit.ac.in#201201118>
+        rdfs:comment    "details of UMANG SHARMA"@en ;
+        rdfs:label      "details of UMANG SHARMA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201118"^^xsd:long ;
+        foaf:firstName  "UMANG SHARMA" ;
+        foaf:name       "UMANG SHARMA" .
+
+<http://students.iiit.ac.in#201499520>
+        rdfs:comment    "details of NIRMAL SURANGE"@en ;
+        rdfs:label      "details of NIRMAL SURANGE"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201499520"^^xsd:long ;
+        foaf:firstName  "NIRMAL SURANGE" ;
+        foaf:name       "NIRMAL SURANGE" .
+
+<http://students.iiit.ac.in#201225113>
+        rdfs:comment    "details of NISHANT PRATEEK"@en ;
+        rdfs:label      "details of NISHANT PRATEEK"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> , <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201225113"^^xsd:long ;
+        foaf:firstName  "NISHANT PRATEEK" ;
+        foaf:name       "NISHANT PRATEEK" .
+
+<http://students.iiit.ac.in#201302044>
+        rdfs:comment    "details of Chaitanya sai alaparthi"@en ;
+        rdfs:label      "details of Chaitanya sai alaparthi"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201302044"^^xsd:long ;
+        foaf:firstName  "Chaitanya sai alaparthi" ;
+        foaf:name       "Chaitanya sai alaparthi" .
+
+foaf:isPrimaryTopicOf
+        a                   owl:InverseFunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment        "A document that this thing is the primary topic of." ;
+        rdfs:domain         owl:Thing ;
+        rdfs:isDefinedBy    foaf: ;
+        rdfs:label          "is primary topic of" ;
+        rdfs:range          foaf:Document ;
+        rdfs:subPropertyOf  foaf:page ;
+        vs:term_status      "stable" .
+
+dc:description  a  owl:AnnotationProperty .
+
+foaf:Document  a          owl:Class ;
+        rdfs:comment      "A document." ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "Document" ;
+        owl:disjointWith  foaf:Project , foaf:Organization ;
+        vs:term_status    "stable" .
+
+foaf:OnlineGamingAccount
+        a                 owl:Class ;
+        rdfs:comment      "An online gaming account." ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "Online Gaming Account" ;
+        rdfs:subClassOf   foaf:OnlineAccount ;
+        vs:term_status    "unstable" .
+
+foaf:lastName  a          owl:DatatypeProperty ;
+        rdfs:comment      "The last name of a person." ;
+        rdfs:domain       foaf:Person ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "lastName" ;
+        rdfs:range        rdfs:Literal ;
+        vs:term_status    "testing" .
+
+<http://courses.iiit.ac.in#Course>
+        a                owl:Class ;
+        rdfs:comment     "Class for the Course or Subject." ;
+        rdfs:subClassOf  foaf:Project .
+
+<http://students.iiit.ac.in#201202069>
+        rdfs:comment    "details of AYUSH KHANDELWAL"@en ;
+        rdfs:label      "details of AYUSH KHANDELWAL"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201202069"^^xsd:long ;
+        foaf:firstName  "AYUSH KHANDELWAL" ;
+        foaf:name       "AYUSH KHANDELWAL" .
+
+<http://students.iiit.ac.in#201256001>
+        rdfs:comment    "details of S ACHYUTH NARAYAN"@en ;
+        rdfs:label      "details of S ACHYUTH NARAYAN"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201256001"^^xsd:long ;
+        foaf:firstName  "S ACHYUTH NARAYAN" ;
+        foaf:name       "S ACHYUTH NARAYAN" .
+
+<http://schema.org/Person>
+        a                    owl:Class ;
+        owl:equivalentClass  foaf:Person .
+
+<http://students.iiit.ac.in#201201055>
+        rdfs:comment    "details of BHUMIK SHAH"@en ;
+        rdfs:label      "details of BHUMIK SHAH"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201055"^^xsd:long ;
+        foaf:firstName  "BHUMIK SHAH" ;
+        foaf:name       "BHUMIK SHAH" .
+
+foaf:gender  a            owl:FunctionalProperty , owl:DatatypeProperty ;
+        rdfs:comment      "The gender of this Agent (typically but not necessarily 'male' or 'female')." ;
+        rdfs:domain       foaf:Agent ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "gender" ;
+        rdfs:range        rdfs:Literal ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#201001080>
+        rdfs:comment    "details of K AVINASH KUMAR"@en ;
+        rdfs:label      "details of K AVINASH KUMAR"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201001080"^^xsd:long ;
+        foaf:firstName  "K AVINASH KUMAR" ;
+        foaf:name       "K AVINASH KUMAR" .
+
+<http://students.iiit.ac.in#201125188>
+        rdfs:comment    "details of chandu khyathi raghavi"@en ;
+        rdfs:label      "details of chandu khyathi raghavi"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c3> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201125188"^^xsd:long ;
+        foaf:firstName  "chandu khyathi raghavi" ;
+        foaf:name       "chandu khyathi raghavi" .
+
+<http://students.iiit.ac.in#201201013>
+        rdfs:comment    "details of NIRAT ATTRI"@en ;
+        rdfs:label      "details of NIRAT ATTRI"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201013"^^xsd:long ;
+        foaf:firstName  "NIRAT ATTRI" ;
+        foaf:name       "NIRAT ATTRI" .
+
+<http://purl.org/dc/terms/Agent>
+        a                    owl:Class ;
+        owl:equivalentClass  foaf:Agent .
+
+foaf:theme  a             owl:ObjectProperty ;
+        rdfs:comment      "A theme." ;
+        rdfs:domain       owl:Thing ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "theme" ;
+        rdfs:range        owl:Thing ;
+        vs:term_status    "archaic" .
+
+<http://students.iiit.ac.in#201407613>
+        rdfs:comment    "details of HARISH YENALA"@en ;
+        rdfs:label      "details of HARISH YENALA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> ;
+		<http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201407613"^^xsd:long ;
+        foaf:firstName  "HARISH YENALA" ;
+        foaf:name       "HARISH YENALA" .
+
+<http://iiit.ac.in/people/faculty#f3>
+        a               <http://iiit.ac.in/people/faculty#Faculty> ;
+        rdfs:comment    "details of faculty with idf3"@en ;
+        rdfs:label      "f3"@en ;
+        <http://iiit.ac.in/people/faculty#teaches>
+                <http://courses.iiit.ac.in#c3> ;
+        foaf:firstName  "Dipti Mishra" ;
+        foaf:name       "Dipti Mishra" .
+
+<http://students.iiit.ac.in#201350824>
+        rdfs:comment    "details of DEVI GAYATHRI G R"@en ;
+        rdfs:label      "details of DEVI GAYATHRI G R"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201350824"^^xsd:long ;
+        foaf:firstName  "DEVI GAYATHRI G R" ;
+        foaf:name       "DEVI GAYATHRI G R" .
+
+<http://students.iiit.ac.in#201325221>
+        rdfs:comment    "details of saujanya bocki"@en ;
+        rdfs:label      "details of saujanya bocki"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201325221"^^xsd:long ;
+        foaf:firstName  "saujanya bocki" ;
+        foaf:name       "saujanya bocki" .
+
+foaf:jabberID  a          owl:DatatypeProperty , owl:InverseFunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment      "A jabber ID for something." ;
+        rdfs:domain       foaf:Agent ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "jabber ID" ;
+        rdfs:range        rdfs:Literal ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#201302210>
+        rdfs:comment    "details of SAI ABHILASH REDDY"@en ;
+        rdfs:label      "details of SAI ABHILASH REDDY"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201302210"^^xsd:long ;
+        foaf:firstName  "SAI ABHILASH REDDY" ;
+        foaf:name       "SAI ABHILASH REDDY" .
+
+<http://students.iiit.ac.in#201305594>
+        rdfs:comment    "details of Snehal"@en ;
+        rdfs:label      "details of Snehal"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201305594"^^xsd:long ;
+        foaf:firstName  "Snehal" ;
+        foaf:name       "Snehal" .
+
+foaf:aimChatID  a           owl:ObjectProperty , owl:DatatypeProperty , owl:InverseFunctionalProperty ;
+        rdfs:comment        "An AIM chat ID" ;
+        rdfs:domain         foaf:Agent ;
+        rdfs:isDefinedBy    foaf: ;
+        rdfs:label          "AIM chat ID" ;
+        rdfs:range          rdfs:Literal ;
+        rdfs:subPropertyOf  foaf:nick ;
+        vs:term_status      "testing" .
+
+foaf:workplaceHomepage
+        a                 owl:ObjectProperty ;
+        rdfs:comment      "A workplace homepage of some person; the homepage of an organization they work for." ;
+        rdfs:domain       foaf:Person ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "workplace homepage" ;
+        rdfs:range        foaf:Document ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#201302181>
+        rdfs:comment    "details of Thakur Akhil Kumar Singh"@en ;
+        rdfs:label      "details of Thakur Akhil Kumar Singh"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201302181"^^xsd:long ;
+        foaf:firstName  "Thakur Akhil Kumar Singh" ;
+        foaf:name       "Thakur Akhil Kumar Singh" .
+
+foaf:mbox  a              owl:InverseFunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment      "A  personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a 'static inverse functional property', in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox." ;
+        rdfs:domain       foaf:Agent ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "personal mailbox" ;
+        rdfs:range        owl:Thing ;
+        vs:term_status    "stable" .
+
+foaf:focus  a             owl:ObjectProperty ;
+        rdfs:comment      "The underlying or 'focal' entity associated with some SKOS-described concept." ;
+        rdfs:domain       <http://www.w3.org/2004/02/skos/core#Concept> ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "focus" ;
+        rdfs:range        owl:Thing ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#201202022>
+        rdfs:comment    "details of SHANTANU PARASHAR"@en ;
+        rdfs:label      "details of SHANTANU PARASHAR"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201202022"^^xsd:long ;
+        foaf:firstName  "SHANTANU PARASHAR" ;
+        foaf:name       "SHANTANU PARASHAR" .
+
+foaf:openid  a              owl:InverseFunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment        "An OpenID for an Agent." ;
+        rdfs:domain         foaf:Agent ;
+        rdfs:isDefinedBy    foaf: ;
+        rdfs:label          "openid" ;
+        rdfs:range          foaf:Document ;
+        rdfs:subPropertyOf  foaf:isPrimaryTopicOf ;
+        vs:term_status      "testing" .
+
+<http://students.iiit.ac.in#201256138>
+        rdfs:comment    "details of GURRAM SRAVYA"@en ;
+        rdfs:label      "details of GURRAM SRAVYA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201256138"^^xsd:long ;
+        foaf:firstName  "GURRAM SRAVYA" ;
+        foaf:name       "GURRAM SRAVYA" .
+
+<http://courses.iiit.ac.in#c2>
+        a             <http://courses.iiit.ac.in#Course> ;
+        rdfs:comment  "course Database Systems"@en ;
+        rdfs:label    "course Database Systemsdetails "@en ;
+        <http://courses.iiit.ac.in#courseID>
+                "c2" ;
+        <http://courses.iiit.ac.in#courseName>
+                "Database Systems" .
+
+<http://iiit.ac.in/people/faculty#teaches>
+        a            owl:ObjectProperty ;
+        rdfs:domain  <http://iiit.ac.in/people/faculty#Faculty> ;
+        rdfs:range   <http://courses.iiit.ac.in#Course> .
+
+<http://students.iiit.ac.in#201201171>
+        rdfs:comment    "details of PRANAV CHINTALA"@en ;
+        rdfs:label      "details of PRANAV CHINTALA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201171"^^xsd:long ;
+        foaf:firstName  "PRANAV CHINTALA" ;
+        foaf:name       "PRANAV CHINTALA" .
+
+<http://students.iiit.ac.in#201256067>
+        rdfs:comment    "details of ABRAR AHMED"@en ;
+        rdfs:label      "details of ABRAR AHMED"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201256067"^^xsd:long ;
+        foaf:firstName  "ABRAR AHMED" ;
+        foaf:name       "ABRAR AHMED" .
+
+foaf:Group  a            owl:Class ;
+        rdfs:comment     "A class of Agents." ;
+        rdfs:label       "Group" ;
+        rdfs:subClassOf  foaf:Agent ;
+        vs:term_status   "stable" .
+
+foaf:OnlineEcommerceAccount
+        a                 owl:Class ;
+        rdfs:comment      "An online e-commerce account." ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "Online E-commerce Account" ;
+        rdfs:subClassOf   foaf:OnlineAccount ;
+        vs:term_status    "unstable" .
+
+owl:Thing  rdfs:label  "Thing" .
+
+foaf:plan  a              owl:DatatypeProperty ;
+        rdfs:comment      "A .plan comment, in the tradition of finger and '.plan' files." ;
+        rdfs:domain       foaf:Person ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "plan" ;
+        rdfs:range        rdfs:Literal ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#201450802>
+        rdfs:comment    "details of Amrit Chatterjee"@en ;
+        rdfs:label      "details of Amrit Chatterjee"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201450802"^^xsd:long ;
+        foaf:firstName  "Amrit Chatterjee" ;
+        foaf:name       "Amrit Chatterjee" .
+
+<http://students.iiit.ac.in#201225032>
+        rdfs:comment    "details of JUHI TANDON"@en ;
+        rdfs:label      "details of JUHI TANDON"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> , <http://courses.iiit.ac.in#c3> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201225032"^^xsd:long ;
+        foaf:firstName  "JUHI TANDON" ;
+        foaf:name       "JUHI TANDON" .
+
+<http://students.iiit.ac.in#201225011>
+        rdfs:comment    "details of G DRUSHTI APOORVA"@en ;
+        rdfs:label      "details of G DRUSHTI APOORVA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> , <http://courses.iiit.ac.in#c3> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201225011"^^xsd:long ;
+        foaf:firstName  "G DRUSHTI APOORVA" ;
+        foaf:name       "G DRUSHTI APOORVA" .
+
+<http://students.iiit.ac.in#201264199>
+        rdfs:comment    "details of S Remya"@en ;
+        rdfs:label      "details of S Remya"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201264199"^^xsd:long ;
+        foaf:firstName  "S Remya" ;
+        foaf:name       "S Remya" .
+
+foaf:membershipClass  a   owl:AnnotationProperty ;
+        rdfs:comment      "Indicates the class of individuals that are a member of a Group" ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "membershipClass" ;
+        vs:term_status    "unstable" .
+
+<http://iiit.ac.in/people/faculty#f6>
+        a               <http://iiit.ac.in/people/faculty#Faculty> ;
+        rdfs:comment    "details of faculty with idf6"@en ;
+        rdfs:label      "f6"@en ;
+        <http://iiit.ac.in/people/faculty#teaches>
+                <http://courses.iiit.ac.in#c2> ;
+        foaf:firstName  "P. Krishna Reddy" ;
+        foaf:name       "P. Krishna Reddy" .
+
+<http://students.iiit.ac.in#201350827>
+        rdfs:comment    "details of DINESH KUMAR M"@en ;
+        rdfs:label      "details of DINESH KUMAR M"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201350827"^^xsd:long ;
+        foaf:firstName  "DINESH KUMAR M" ;
+        foaf:name       "DINESH KUMAR M" .
+
+dc:date  a      owl:AnnotationProperty .
+
+<http://students.iiit.ac.in#201302084>
+        rdfs:comment    "details of ARUSHI DOGRA"@en ;
+        rdfs:label      "details of ARUSHI DOGRA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201302084"^^xsd:long ;
+        foaf:firstName  "ARUSHI DOGRA" ;
+        foaf:name       "ARUSHI DOGRA" .
+
+foaf:title  a             owl:DatatypeProperty ;
+        rdfs:comment      "Title (Mr, Mrs, Ms, Dr. etc)" ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "title" ;
+        vs:term_status    "testing" .
+
+foaf:Agent  a           owl:Class ;
+        rdfs:comment    "An agent (eg. person, group, software or physical artifact)." ;
+        rdfs:label      "Agent" ;
+        vs:term_status  "stable" .
+
+<http://students.iiit.ac.in#201302063>
+        rdfs:comment    "details of Abbhinav Venkat"@en ;
+        rdfs:label      "details of Abbhinav Venkat"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201302063"^^xsd:long ;
+        foaf:firstName  "Abbhinav Venkat" ;
+        foaf:name       "Abbhinav Venkat" .
+
+<http://students.iiit.ac.in#201305626>
+        rdfs:comment    "details of Arnav Singh"@en ;
+        rdfs:label      "details of Arnav Singh"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201305626"^^xsd:long ;
+        foaf:firstName  "Arnav Singh" ;
+        foaf:name       "Arnav Singh" .
+
+<http://students.iiit.ac.in#201302234>
+        rdfs:comment    "details of KOTNI AMULYA"@en ;
+        rdfs:label      "details of KOTNI AMULYA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201302234"^^xsd:long ;
+        foaf:firstName  "KOTNI AMULYA" ;
+        foaf:name       "KOTNI AMULYA" .
+
+foaf:LabelProperty  a     owl:Class ;
+        rdfs:comment      "A foaf:LabelProperty is any RDF property with texual values that serve as labels." ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "Label Property" ;
+        vs:term_status    "unstable" .
+
+<http://students.iiit.ac.in#201201045>
+        rdfs:comment    "details of BHAT ABHISHEK ASHOK"@en ;
+        rdfs:label      "details of BHAT ABHISHEK ASHOK"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201045"^^xsd:long ;
+        foaf:firstName  "BHAT ABHISHEK ASHOK" ;
+        foaf:name       "BHAT ABHISHEK ASHOK" .
+
+foaf:birthday  a          owl:FunctionalProperty , owl:DatatypeProperty ;
+        rdfs:comment      "The birthday of this Agent, represented in mm-dd string form, eg. '12-31'." ;
+        rdfs:domain       foaf:Agent ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "birthday" ;
+        rdfs:range        rdfs:Literal ;
+        vs:term_status    "unstable" .
+
+<http://students.iiit.ac.in#201407666>
+        rdfs:comment    "details of SAYYAD NAYYARODDEEN"@en ;
+        rdfs:label      "details of SAYYAD NAYYARODDEEN"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201407666"^^xsd:long ;
+        foaf:firstName  "SAYYAD NAYYARODDEEN" ;
+        foaf:name       "SAYYAD NAYYARODDEEN" .
+
+<http://students.iiit.ac.in#201202159>
+        rdfs:comment    "details of AYUSH TRIPATHI"@en ;
+        rdfs:label      "details of AYUSH TRIPATHI"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201202159"^^xsd:long ;
+        foaf:firstName  "AYUSH TRIPATHI" ;
+        foaf:name       "AYUSH TRIPATHI" .
+
+foaf:mbox_sha1sum  a      owl:DatatypeProperty , owl:InverseFunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment      "The sha1sum of the URI of an Internet mailbox associated with exactly one owner, the  first owner of the mailbox." ;
+        rdfs:domain       foaf:Agent ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "sha1sum of a personal mailbox URI name" ;
+        rdfs:range        rdfs:Literal ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#201201166>
+        rdfs:comment    "details of AKSHAY JAGGI"@en ;
+        rdfs:label      "details of AKSHAY JAGGI"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201166"^^xsd:long ;
+        foaf:firstName  "AKSHAY JAGGI" ;
+        foaf:name       "AKSHAY JAGGI" .
+
+<http://students.iiit.ac.in#201225140>
+        rdfs:comment    "details of GUDIMELLA SRIRAM SACHIN"@en ;
+        rdfs:label      "details of GUDIMELLA SRIRAM SACHIN"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201225140"^^xsd:long ;
+        foaf:firstName  "GUDIMELLA SRIRAM SACHIN" ;
+        foaf:name       "GUDIMELLA SRIRAM SACHIN" .
+
+<http://students.iiit.ac.in#201225090>
+        rdfs:comment    "details of GAURAV MOHANTY"@en ;
+        rdfs:label      "details of GAURAV MOHANTY"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> , <http://courses.iiit.ac.in#c4> , <http://courses.iiit.ac.in#c3> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201225090"^^xsd:long ;
+        foaf:firstName  "GAURAV MOHANTY" ;
+        foaf:name       "GAURAV MOHANTY" .
+
+foaf:nick  a              owl:DatatypeProperty , owl:ObjectProperty ;
+        rdfs:comment      "A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames)." ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "nickname" ;
+        vs:term_status    "testing" .
+
+foaf:Organization  a      owl:Class ;
+        rdfs:comment      "An organization." ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "Organization" ;
+        rdfs:subClassOf   foaf:Agent ;
+        owl:disjointWith  foaf:Person ;
+        vs:term_status    "stable" .
+
+<http://students.iiit.ac.in#201302008>
+        rdfs:comment    "details of kartik gupta"@en ;
+        rdfs:label      "details of kartik gupta"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201302008"^^xsd:long ;
+        foaf:firstName  "kartik gupta" ;
+        foaf:name       "kartik gupta" .
+
+foaf:publications  a      owl:ObjectProperty ;
+        rdfs:comment      "A link to the publications of this person." ;
+        rdfs:domain       foaf:Person ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "publications" ;
+        rdfs:range        foaf:Document ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#201225006>
+        rdfs:comment    "details of SAKSHEE VIJAY"@en ;
+        rdfs:label      "details of SAKSHEE VIJAY"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> , <http://courses.iiit.ac.in#c1> , <http://courses.iiit.ac.in#c4> , <http://courses.iiit.ac.in#c3> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201225006"^^xsd:long ;
+        foaf:firstName  "SAKSHEE VIJAY" ;
+        foaf:name       "SAKSHEE VIJAY" .
+
+foaf:img  a                 owl:ObjectProperty ;
+        rdfs:comment        "An image that can be used to represent some thing (ie. those depictions which are particularly representative of something, eg. one's photo on a homepage)." ;
+        rdfs:domain         foaf:Person ;
+        rdfs:isDefinedBy    foaf: ;
+        rdfs:label          "image" ;
+        rdfs:range          foaf:Image ;
+        rdfs:subPropertyOf  foaf:depiction ;
+        vs:term_status      "testing" .
+
+foaf:skypeID  a             owl:DatatypeProperty , owl:ObjectProperty ;
+        rdfs:comment        "A Skype ID" ;
+        rdfs:domain         foaf:Agent ;
+        rdfs:isDefinedBy    foaf: ;
+        rdfs:label          "Skype ID" ;
+        rdfs:range          rdfs:Literal ;
+        rdfs:subPropertyOf  foaf:nick ;
+        vs:term_status      "testing" .
+
+<http://students.iiit.ac.in#201201174>
+        rdfs:comment    "details of SAKSHAM SINGHAL"@en ;
+        rdfs:label      "details of SAKSHAM SINGHAL"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201174"^^xsd:long ;
+        foaf:firstName  "SAKSHAM SINGHAL" ;
+        foaf:name       "SAKSHAM SINGHAL" .
+
+<http://iiit.ac.in/people/faculty#f1>
+        a               <http://iiit.ac.in/people/faculty#Faculty> ;
+        rdfs:comment    "details of faculty with idf1"@en ;
+        rdfs:label      "f1"@en ;
+        <http://iiit.ac.in/people/faculty#teaches>
+                <http://courses.iiit.ac.in#c3> ;
+        foaf:firstName  "Radhika Mamidi" ;
+        foaf:name       "Radhika Mamidi" .
+
+<http://iiit.ac.in/people/faculty#Faculty>
+        a                owl:Class ;
+        rdfs:subClassOf  foaf:Person .
+
+foaf:workInfoHomepage
+        a                 owl:ObjectProperty ;
+        rdfs:comment      "A work info homepage of some person; a page about their work for some organization." ;
+        rdfs:domain       foaf:Person ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "work info homepage" ;
+        rdfs:range        foaf:Document ;
+        vs:term_status    "testing" .
+
+foaf:PersonalProfileDocument
+        a                owl:Class ;
+        rdfs:comment     "A personal profile RDF document." ;
+        rdfs:label       "PersonalProfileDocument" ;
+        rdfs:subClassOf  foaf:Document ;
+        vs:term_status   "testing" .
+
+<http://students.iiit.ac.in#201305600>
+        rdfs:comment    "details of Sumit Mishra"@en ;
+        rdfs:label      "details of Sumit Mishra"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201305600"^^xsd:long ;
+        foaf:firstName  "Sumit Mishra" ;
+        foaf:name       "Sumit Mishra" .
+
+<http://students.iiit.ac.in#201302179>
+        rdfs:comment    "details of ANURAG GHOSH"@en ;
+        rdfs:label      "details of ANURAG GHOSH"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201302179"^^xsd:long ;
+        foaf:firstName  "ANURAG GHOSH" ;
+        foaf:name       "ANURAG GHOSH" .
+
+<http://students.iiit.ac.in#201325148>
+        rdfs:comment    "details of AKKIREDDY ESWAR SAI AKHIL"@en ;
+        rdfs:label      "details of AKKIREDDY ESWAR SAI AKHIL"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201325148"^^xsd:long ;
+        foaf:firstName  "AKKIREDDY ESWAR SAI AKHIL" ;
+        foaf:name       "AKKIREDDY ESWAR SAI AKHIL" .
+
+foaf:primaryTopic  a      owl:FunctionalProperty , owl:ObjectProperty ;
+        rdfs:comment      "The primary topic of some page or document." ;
+        rdfs:domain       foaf:Document ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "primary topic" ;
+        rdfs:range        owl:Thing ;
+        owl:inverseOf     foaf:isPrimaryTopicOf ;
+        vs:term_status    "stable" .
+
+foaf:based_near  a        owl:ObjectProperty ;
+        rdfs:comment      "A location that something is based near, for some broadly human notion of near." ;
+        rdfs:domain       <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "based near" ;
+        rdfs:range        <http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing> ;
+        vs:term_status    "testing" .
+
+dc:title  a     owl:AnnotationProperty .
+
+foaf:accountServiceHomepage
+        a                 owl:ObjectProperty ;
+        rdfs:comment      "Indicates a homepage of the service provide for this online account." ;
+        rdfs:domain       foaf:OnlineAccount ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "account service homepage" ;
+        rdfs:range        foaf:Document ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#201225156>
+        rdfs:comment    "details of DANDA PRATHYUSHA"@en ;
+        rdfs:label      "details of DANDA PRATHYUSHA"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> , <http://courses.iiit.ac.in#c1> , <http://courses.iiit.ac.in#c4> , <http://courses.iiit.ac.in#c3> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201225156"^^xsd:long ;
+        foaf:firstName  "DANDA PRATHYUSHA" ;
+        foaf:name       "DANDA PRATHYUSHA" .
+
+foaf:page  a              owl:ObjectProperty ;
+        rdfs:comment      "A page or document about this thing." ;
+        rdfs:domain       owl:Thing ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "page" ;
+        rdfs:range        foaf:Document ;
+        owl:inverseOf     foaf:topic ;
+        vs:term_status    "stable" .
+
+<http://students.iiit.ac.in#201302066>
+        rdfs:comment    "details of Aditya Srinivas"@en ;
+        rdfs:label      "details of Aditya Srinivas"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201302066"^^xsd:long ;
+        foaf:firstName  "Aditya Srinivas" ;
+        foaf:name       "Aditya Srinivas" .
+
+foaf:   a               owl:Ontology ;
+        dc:description  "The Friend of a Friend (FOAF) RDF vocabulary, described using W3C RDF Schema and the Web Ontology Language." ;
+        dc:title        "Friend of a Friend (FOAF) vocabulary" .
+
+<http://students.iiit.ac.in#201305658>
+        rdfs:comment    "details of Gagandeep Singh Chhabra"@en ;
+        rdfs:label      "details of Gagandeep Singh Chhabra"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201305658"^^xsd:long ;
+        foaf:firstName  "Gagandeep Singh Chhabra" ;
+        foaf:name       "Gagandeep Singh Chhabra" .
+
+foaf:topic_interest  a    owl:ObjectProperty ;
+        rdfs:comment      "A thing of interest to this person." ;
+        rdfs:domain       foaf:Agent ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "topic_interest" ;
+        rdfs:range        owl:Thing ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#201303004>
+        rdfs:comment    "details of Aniruddh Ravipati"@en ;
+        rdfs:label      "details of Aniruddh Ravipati"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201303004"^^xsd:long ;
+        foaf:firstName  "Aniruddh Ravipati" ;
+        foaf:name       "Aniruddh Ravipati" .
+
+wot:src_assurance  a  owl:AnnotationProperty .
+
+<http://students.iiit.ac.in#201302195>
+        rdfs:comment    "details of Jhaveri Nisarg Ketan"@en ;
+        rdfs:label      "details of Jhaveri Nisarg Ketan"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201302195"^^xsd:long ;
+        foaf:firstName  "Jhaveri Nisarg Ketan" ;
+        foaf:name       "Jhaveri Nisarg Ketan" .
+
+foaf:firstName  a         owl:DatatypeProperty ;
+        rdfs:comment      "The first name of a person." ;
+        rdfs:domain       foaf:Person ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "firstName" ;
+        rdfs:range        rdfs:Literal ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#201125005>
+        rdfs:comment    "details of NEHAL JAGDISH WANI"@en ;
+        rdfs:label      "details of NEHAL JAGDISH WANI"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c3> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201125005"^^xsd:long ;
+        foaf:firstName  "NEHAL JAGDISH WANI" ;
+        foaf:name       "NEHAL JAGDISH WANI" .
+
+foaf:holdsAccount  a      owl:ObjectProperty ;
+        rdfs:comment      "Indicates an account held by this agent." ;
+        rdfs:domain       foaf:Agent ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "account" ;
+        rdfs:range        foaf:OnlineAccount ;
+        vs:term_status    "archaic" .
+
+wot:assurance  a  owl:AnnotationProperty .
+
+<http://iiit.ac.in/people/faculty#f4>
+        a               <http://iiit.ac.in/people/faculty#Faculty> ;
+        rdfs:comment    "details of faculty with idf4"@en ;
+        rdfs:label      "f4"@en ;
+        <http://iiit.ac.in/people/faculty#teaches>
+                <http://courses.iiit.ac.in#c4> ;
+        foaf:firstName  "Manish Shrivastava" ;
+        foaf:name       "Manish Shrivastava" .
+
+<http://students.iiit.ac.in#201125105>
+        rdfs:comment    "details of ROHIT JAIN"@en ;
+        rdfs:label      "details of ROHIT JAIN"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c3> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201125105"^^xsd:long ;
+        foaf:firstName  "ROHIT JAIN" ;
+        foaf:name       "ROHIT JAIN" .
+
+<http://students.iiit.ac.in#201202078>
+        rdfs:comment    "details of JASPREET SINGH"@en ;
+        rdfs:label      "details of JASPREET SINGH"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201202078"^^xsd:long ;
+        foaf:firstName  "JASPREET SINGH" ;
+        foaf:name       "JASPREET SINGH" .
+
+<http://students.iiit.ac.in#201302061>
+        rdfs:comment    "details of Vishal Thamizharasan"@en ;
+        rdfs:label      "details of Vishal Thamizharasan"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201302061"^^xsd:long ;
+        foaf:firstName  "Vishal Thamizharasan" ;
+        foaf:name       "Vishal Thamizharasan" .
+
+<http://students.iiit.ac.in#201202036>
+        rdfs:comment    "details of DARPAN BAHETI"@en ;
+        rdfs:label      "details of DARPAN BAHETI"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201202036"^^xsd:long ;
+        foaf:firstName  "DARPAN BAHETI" ;
+        foaf:name       "DARPAN BAHETI" .
+
+<http://students.iiit.ac.in#201201064>
+        rdfs:comment    "details of VIHAR M PATEL"@en ;
+        rdfs:label      "details of VIHAR M PATEL"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201064"^^xsd:long ;
+        foaf:firstName  "VIHAR M PATEL" ;
+        foaf:name       "VIHAR M PATEL" .
+
+foaf:givenname  a         owl:DatatypeProperty ;
+        rdfs:comment      "The given name of some person." ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "Given name" ;
+        vs:term_status    "archaic" .
+
+<http://students.iiit.ac.in#201202157>
+        rdfs:comment    "details of SANDEEP SRICHARAN MUKKU"@en ;
+        rdfs:label      "details of SANDEEP SRICHARAN MUKKU"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201202157"^^xsd:long ;
+        foaf:firstName  "SANDEEP SRICHARAN MUKKU" ;
+        foaf:name       "SANDEEP SRICHARAN MUKKU" .
+
+<http://students.iiit.ac.in#201302161>
+        rdfs:comment    "details of Aaditya M Nair"@en ;
+        rdfs:label      "details of Aaditya M Nair"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201302161"^^xsd:long ;
+        foaf:firstName  "Aaditya M Nair" ;
+        foaf:name       "Aaditya M Nair" .
+
+rdfs:Class  a   owl:Class .
+
+<http://students.iiit.ac.in#201450879>
+        rdfs:comment    "details of KOLLA KRISHNA MADHAVI"@en ;
+        rdfs:label      "details of KOLLA KRISHNA MADHAVI"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201450879"^^xsd:long ;
+        foaf:firstName  "KOLLA KRISHNA MADHAVI" ;
+        foaf:name       "KOLLA KRISHNA MADHAVI" .
+
+foaf:tipjar  a              owl:ObjectProperty ;
+        rdfs:comment        "A tipjar document for this agent, describing means for payment and reward." ;
+        rdfs:domain         foaf:Agent ;
+        rdfs:isDefinedBy    foaf: ;
+        rdfs:label          "tipjar" ;
+        rdfs:range          foaf:Document ;
+        rdfs:subPropertyOf  foaf:page ;
+        vs:term_status      "testing" .
+
+foaf:familyName  a        owl:DatatypeProperty ;
+        rdfs:comment      "The family name of some person." ;
+        rdfs:domain       foaf:Person ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "familyName" ;
+        rdfs:range        rdfs:Literal ;
+        vs:term_status    "testing" .
+
+<http://students.iiit.ac.in#201325059>
+        rdfs:comment    "details of VIJJINI ANVESH RAO"@en ;
+        rdfs:label      "details of VIJJINI ANVESH RAO"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c1> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201325059"^^xsd:long ;
+        foaf:firstName  "VIJJINI ANVESH RAO" ;
+        foaf:name       "VIJJINI ANVESH RAO" .
+
+<http://students.iiit.ac.in#201450816>
+        rdfs:comment    "details of Pinak chakraborty"@en ;
+        rdfs:label      "details of Pinak chakraborty"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201450816"^^xsd:long ;
+        foaf:firstName  "Pinak chakraborty" ;
+        foaf:name       "Pinak chakraborty" .
+
+<http://students.iiit.ac.in#201202044>
+        rdfs:comment    "details of SYED SARFARAZ AKHTAR"@en ;
+        rdfs:label      "details of SYED SARFARAZ AKHTAR"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> , <http://courses.iiit.ac.in#c4> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201202044"^^xsd:long ;
+        foaf:firstName  "SYED SARFARAZ AKHTAR" ;
+        foaf:name       "SYED SARFARAZ AKHTAR" .
+
+<http://students.iiit.ac.in#201201093>
+        rdfs:comment    "details of PRAJEETH VETHANAYAGAM"@en ;
+        rdfs:label      "details of PRAJEETH VETHANAYAGAM"@en ;
+        <http://students.iiit.ac.in#registeredFor>
+                <http://courses.iiit.ac.in#c2> ;
+        <http://students.iiit.ac.in#rollnum>
+                "201201093"^^xsd:long ;
+        foaf:firstName  "PRAJEETH VETHANAYAGAM" ;
+        foaf:name       "PRAJEETH VETHANAYAGAM" .
+
+foaf:pastProject  a       owl:ObjectProperty ;
+        rdfs:comment      "A project this person has previously worked on." ;
+        rdfs:domain       foaf:Person ;
+        rdfs:isDefinedBy  foaf: ;
+        rdfs:label        "past project" ;
+        rdfs:range        owl:Thing ;
+        vs:term_status    "testing" .

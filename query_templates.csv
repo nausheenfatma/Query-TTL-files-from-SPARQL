@@ -1,0 +1,3 @@
+1###select ?faculty_name where {?faculty foaf:name ?faculty_name . ?faculty faculty:teaches ?course . ?course course:courseName "%s" .}
+2###select ?course_name where { ?sid foaf:name "%s" . ?sid student:registeredFor ?cid . ?cid course:courseName ?course_name .}
+3###select (count(?course_name) as ?courses) where { ?sid foaf:name "%s" . ?sid student:registeredFor ?cid . ?cid course:courseName ?course_name .}

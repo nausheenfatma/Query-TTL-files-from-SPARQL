@@ -1,0 +1,12 @@
+PREFIX dc:    <http://purl.org/dc/elements/1.1/> 
+PREFIX rdfs:  <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX wot:   <http://xmlns.com/wot/0.1/> 
+PREFIX foaf:  <http://xmlns.com/foaf/0.1/> 
+PREFIX owl:   <http://www.w3.org/2002/07/owl#> 
+PREFIX xsd:   <http://www.w3.org/2001/XMLSchema#> 
+PREFIX rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX vs:    <http://www.w3.org/2003/06/sw-vocab-status/ns#>  
+PREFIX faculty: <http://iiit.ac.in/people/faculty#> 
+PREFIX student: <http://students.iiit.ac.in#> 
+PREFIX course: <http://courses.iiit.ac.in#> 
+select ?course_name where { ?sid foaf:name "HARISH YENALA" . ?sid student:registeredFor ?cid . ?cid course:courseName ?course_name .}
